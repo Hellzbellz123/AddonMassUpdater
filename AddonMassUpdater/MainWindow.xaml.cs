@@ -23,7 +23,7 @@ namespace GetLinks
             var instance = new LinkBuilder();
             instance.GetLinks();
             instance.Makeuseablelink();
-            var instance2 = new DownloadFiles();
+            //var instance2 = new DownloadFiles();
             //instance2();
         }
 
