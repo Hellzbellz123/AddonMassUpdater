@@ -2,7 +2,6 @@
 using System;
 using System.IO;
 using System.Net;
-using System.Windows.Controls;
 
 public class LinkBuilder
 {
@@ -10,22 +9,24 @@ public class LinkBuilder
 
     public void GetLinks()
     {
-        var workingdirectory = Directory.GetCurrentDirectory();
+
+        string workingdirectory = Directory.GetCurrentDirectory();
         int counter = 0;
         string line;
 
         // Read the file and display it line by line.
-        StreamReader file =
-            new StreamReader(workingdirectory + "/download/in.txt");
-        while ((line = file.ReadLine()) != null)
+        using (StreamReader file =
+            new StreamReader($"{workingdirectory}/download/in.txt"))
         {
-            Console.WriteLine(line);
-            counter++;
+            while ((line = file.ReadLine()) != null)
+            {
+                Console.WriteLine(line);
+                counter++;
+            }
+
+            file.Close();
         }
-
-        file.Close();
         Console.WriteLine("There were {0} lines.", counter);
-
     }
 
     public void Makeuseablelink()
@@ -45,7 +46,7 @@ public class LinkBuilder
 
 public class DownloadFiles
 {
-    public void Downloader ()
+    public void Downloader()
     {
         using (WebClient wc = new WebClient())
         {
@@ -59,7 +60,7 @@ public class DownloadFiles
         }
     }
 
-    void ProgressBar_ValueChanged_1(object sender, DownloadProgressChangedEventArgs e)
+    private void ProgressBar_ValueChanged_1(object sender, DownloadProgressChangedEventArgs e)
     {
         //ProgressBar.ValueChangedEvent = e.ProgressPercentage;
     }

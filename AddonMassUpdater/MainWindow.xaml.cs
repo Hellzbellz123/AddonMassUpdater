@@ -39,7 +39,6 @@ namespace GetLinks
 
         private void CleanCacheWTF_Click(object sender, RoutedEventArgs e)
         {
-            
         }
 
         private void AddonList_TextBox(object sender, TextChangedEventArgs e)

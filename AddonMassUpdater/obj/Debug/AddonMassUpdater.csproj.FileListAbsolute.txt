@@ -1,25 +1,25 @@
-C:\Source\AddonMassUpdaterV2\AddonMassUpdater\AddonMassUpdater\bin\Debug\AddonMassUpdater.exe.config
-C:\Source\AddonMassUpdaterV2\AddonMassUpdater\AddonMassUpdater\bin\Debug\AddonMassUpdater.exe
-C:\Source\AddonMassUpdaterV2\AddonMassUpdater\AddonMassUpdater\bin\Debug\AddonMassUpdater.pdb
-C:\Source\AddonMassUpdaterV2\AddonMassUpdater\AddonMassUpdater\bin\Debug\HtmlAgilityPack.dll
-C:\Source\AddonMassUpdaterV2\AddonMassUpdater\AddonMassUpdater\bin\Debug\HtmlAgilityPack.pdb
-C:\Source\AddonMassUpdaterV2\AddonMassUpdater\AddonMassUpdater\bin\Debug\HtmlAgilityPack.xml
-C:\Source\AddonMassUpdaterV2\AddonMassUpdater\AddonMassUpdater\obj\Debug\MainWindow.g.cs
-C:\Source\AddonMassUpdaterV2\AddonMassUpdater\AddonMassUpdater\obj\Debug\App.g.cs
-C:\Source\AddonMassUpdaterV2\AddonMassUpdater\AddonMassUpdater\obj\Debug\AddonMassUpdater_MarkupCompile.cache
-C:\Source\AddonMassUpdaterV2\AddonMassUpdater\AddonMassUpdater\obj\Debug\AddonMassUpdater_MarkupCompile.lref
-C:\Source\AddonMassUpdaterV2\AddonMassUpdater\AddonMassUpdater\obj\Debug\MainWindow.baml
-C:\Source\AddonMassUpdaterV2\AddonMassUpdater\AddonMassUpdater\obj\Debug\AddonMassUpdater.g.resources
-C:\Source\AddonMassUpdaterV2\AddonMassUpdater\AddonMassUpdater\obj\Debug\AddonMassUpdater.Properties.Resources.resources
-C:\Source\AddonMassUpdaterV2\AddonMassUpdater\AddonMassUpdater\obj\Debug\AddonMassUpdater.csproj.GenerateResource.cache
-C:\Source\AddonMassUpdaterV2\AddonMassUpdater\AddonMassUpdater\obj\Debug\AddonMassUpdater.csproj.CoreCompileInputs.cache
-C:\Source\AddonMassUpdaterV2\AddonMassUpdater\AddonMassUpdater\obj\Debug\AddonMassUpdater.csproj.CopyComplete
-C:\Source\AddonMassUpdaterV2\AddonMassUpdater\AddonMassUpdater\obj\Debug\AddonMassUpdater.exe
-C:\Source\AddonMassUpdaterV2\AddonMassUpdater\AddonMassUpdater\obj\Debug\AddonMassUpdater.pdb
-C:\Source\AddonMassUpdaterV2\AddonMassUpdater\AddonMassUpdater\obj\Debug\AddonMassUpdater.csprojAssemblyReference.cache
-C:\Source\AddonMassUpdaterV2\AddonMassUpdater\AddonMassUpdater\bin\Debug\ConsoleControl.dll
-C:\Source\AddonMassUpdaterV2\AddonMassUpdater\AddonMassUpdater\bin\Debug\ConsoleControl.WPF.dll
-C:\Source\AddonMassUpdaterV2\AddonMassUpdater\AddonMassUpdater\bin\Debug\ConsoleControlAPI.dll
-C:\Source\AddonMassUpdaterV2\AddonMassUpdater\AddonMassUpdater\bin\Debug\ConsoleControl.xml
-C:\Source\AddonMassUpdaterV2\AddonMassUpdater\AddonMassUpdater\bin\Debug\ConsoleControl.WPF.xml
-C:\Source\AddonMassUpdaterV2\AddonMassUpdater\AddonMassUpdater\bin\Debug\ConsoleControlAPI.xml
+C:\Source\whats happening\AddonMassUpdaterV2\AddonMassUpdater\AddonMassUpdater\bin\Debug\AddonMassUpdater.exe.config
+C:\Source\whats happening\AddonMassUpdaterV2\AddonMassUpdater\AddonMassUpdater\bin\Debug\AddonMassUpdater.exe
+C:\Source\whats happening\AddonMassUpdaterV2\AddonMassUpdater\AddonMassUpdater\bin\Debug\AddonMassUpdater.pdb
+C:\Source\whats happening\AddonMassUpdaterV2\AddonMassUpdater\AddonMassUpdater\bin\Debug\ConsoleControl.dll
+C:\Source\whats happening\AddonMassUpdaterV2\AddonMassUpdater\AddonMassUpdater\bin\Debug\ConsoleControl.WPF.dll
+C:\Source\whats happening\AddonMassUpdaterV2\AddonMassUpdater\AddonMassUpdater\bin\Debug\ConsoleControlAPI.dll
+C:\Source\whats happening\AddonMassUpdaterV2\AddonMassUpdater\AddonMassUpdater\bin\Debug\HtmlAgilityPack.dll
+C:\Source\whats happening\AddonMassUpdaterV2\AddonMassUpdater\AddonMassUpdater\bin\Debug\ConsoleControl.xml
+C:\Source\whats happening\AddonMassUpdaterV2\AddonMassUpdater\AddonMassUpdater\bin\Debug\ConsoleControl.WPF.xml
+C:\Source\whats happening\AddonMassUpdaterV2\AddonMassUpdater\AddonMassUpdater\bin\Debug\ConsoleControlAPI.xml
+C:\Source\whats happening\AddonMassUpdaterV2\AddonMassUpdater\AddonMassUpdater\bin\Debug\HtmlAgilityPack.pdb
+C:\Source\whats happening\AddonMassUpdaterV2\AddonMassUpdater\AddonMassUpdater\bin\Debug\HtmlAgilityPack.xml
+C:\Source\whats happening\AddonMassUpdaterV2\AddonMassUpdater\AddonMassUpdater\obj\Debug\AddonMassUpdater.csprojAssemblyReference.cache
+C:\Source\whats happening\AddonMassUpdaterV2\AddonMassUpdater\AddonMassUpdater\obj\Debug\MainWindow.g.cs
+C:\Source\whats happening\AddonMassUpdaterV2\AddonMassUpdater\AddonMassUpdater\obj\Debug\App.g.cs
+C:\Source\whats happening\AddonMassUpdaterV2\AddonMassUpdater\AddonMassUpdater\obj\Debug\AddonMassUpdater_MarkupCompile.cache
+C:\Source\whats happening\AddonMassUpdaterV2\AddonMassUpdater\AddonMassUpdater\obj\Debug\AddonMassUpdater_MarkupCompile.lref
+C:\Source\whats happening\AddonMassUpdaterV2\AddonMassUpdater\AddonMassUpdater\obj\Debug\MainWindow.baml
+C:\Source\whats happening\AddonMassUpdaterV2\AddonMassUpdater\AddonMassUpdater\obj\Debug\AddonMassUpdater.g.resources
+C:\Source\whats happening\AddonMassUpdaterV2\AddonMassUpdater\AddonMassUpdater\obj\Debug\AddonMassUpdater.Properties.Resources.resources
+C:\Source\whats happening\AddonMassUpdaterV2\AddonMassUpdater\AddonMassUpdater\obj\Debug\AddonMassUpdater.csproj.GenerateResource.cache
+C:\Source\whats happening\AddonMassUpdaterV2\AddonMassUpdater\AddonMassUpdater\obj\Debug\AddonMassUpdater.csproj.CoreCompileInputs.cache
+C:\Source\whats happening\AddonMassUpdaterV2\AddonMassUpdater\AddonMassUpdater\obj\Debug\AddonMassUpdater.csproj.CopyComplete
+C:\Source\whats happening\AddonMassUpdaterV2\AddonMassUpdater\AddonMassUpdater\obj\Debug\AddonMassUpdater.exe
+C:\Source\whats happening\AddonMassUpdaterV2\AddonMassUpdater\AddonMassUpdater\obj\Debug\AddonMassUpdater.pdb
