@@ -29,7 +29,6 @@ C:\Source\WoW C Addon Updater\AddonMassUpdater\AddonMassUpdater\bin\Debug\AddonM
 C:\Source\WoW C Addon Updater\AddonMassUpdater\AddonMassUpdater\bin\Debug\ConsoleControl.dll
 C:\Source\WoW C Addon Updater\AddonMassUpdater\AddonMassUpdater\bin\Debug\ConsoleControl.WPF.dll
 C:\Source\WoW C Addon Updater\AddonMassUpdater\AddonMassUpdater\bin\Debug\ConsoleControlAPI.dll
-C:\Source\WoW C Addon Updater\AddonMassUpdater\AddonMassUpdater\bin\Debug\HtmlAgilityPack.dll
 C:\Source\WoW C Addon Updater\AddonMassUpdater\AddonMassUpdater\bin\Debug\ConsoleControl.xml
 C:\Source\WoW C Addon Updater\AddonMassUpdater\AddonMassUpdater\bin\Debug\ConsoleControl.WPF.xml
 C:\Source\WoW C Addon Updater\AddonMassUpdater\AddonMassUpdater\bin\Debug\ConsoleControlAPI.xml
@@ -39,7 +38,6 @@ C:\Source\WoW C Addon Updater\AddonMassUpdater\AddonMassUpdater\obj\Debug\AddonM
 C:\Source\WoW C Addon Updater\AddonMassUpdater\AddonMassUpdater\obj\Debug\MainWindow.g.cs
 C:\Source\WoW C Addon Updater\AddonMassUpdater\AddonMassUpdater\obj\Debug\App.g.cs
 C:\Source\WoW C Addon Updater\AddonMassUpdater\AddonMassUpdater\obj\Debug\AddonMassUpdater_MarkupCompile.cache
-C:\Source\WoW C Addon Updater\AddonMassUpdater\AddonMassUpdater\obj\Debug\AddonMassUpdater_MarkupCompile.lref
 C:\Source\WoW C Addon Updater\AddonMassUpdater\AddonMassUpdater\obj\Debug\MainWindow.baml
 C:\Source\WoW C Addon Updater\AddonMassUpdater\AddonMassUpdater\obj\Debug\AddonMassUpdater.g.resources
 C:\Source\WoW C Addon Updater\AddonMassUpdater\AddonMassUpdater\obj\Debug\AddonMassUpdater.Properties.Resources.resources
@@ -48,3 +46,4 @@ C:\Source\WoW C Addon Updater\AddonMassUpdater\AddonMassUpdater\obj\Debug\AddonM
 C:\Source\WoW C Addon Updater\AddonMassUpdater\AddonMassUpdater\obj\Debug\AddonMassUpdater.csproj.CopyComplete
 C:\Source\WoW C Addon Updater\AddonMassUpdater\AddonMassUpdater\obj\Debug\AddonMassUpdater.exe
 C:\Source\WoW C Addon Updater\AddonMassUpdater\AddonMassUpdater\obj\Debug\AddonMassUpdater.pdb
+C:\Source\WoW C Addon Updater\AddonMassUpdater\AddonMassUpdater\bin\Debug\HtmlAgilityPack.dll

@@ -1,32 +1,26 @@
 ﻿using HtmlAgilityPack;
 using System;
+using System.Diagnostics;
 using System.IO;
-
 using System.Net;
 
+#pragma warning disable ET001 // Type name does not match file name
+
 public class LinkBuilder
+#pragma warning restore ET001 // Type name does not match file name
 {
     public static string downloadlink = string.Empty;
+    public static string WorkingLinkInTextFile = string.Empty;
+    public static string workingdirectory = Directory.GetCurrentDirectory();
 
     public void GetLinks()
     {
-        string workingdirectory = Directory.GetCurrentDirectory();
-        int counter = 0;
-        string line;
-
-        StreamReader file = new StreamReader(workingdirectory + "\\in.txt");
-        while ((line = file.ReadLine()) != null)
-        {
-            Console.WriteLine(line);
-            counter++;
-        }
-
-        file.Close();
+        WorkingLinkInTextFile = ("https://www.curseforge.com/wow/addons/deadly-boss-mods");
     }
 
-        public void Makeuseablelink()
+    public void Makeuseablelink()
     {
-        string WorkingLink = @"https://www.curseforge.com/wow/addons/deadly-boss-mods" + "/download";
+        string WorkingLink = WorkingLinkInTextFile + "/download";
         HtmlWeb web = new HtmlWeb();
         var htmlDoc = web.Load(WorkingLink);
         foreach (HtmlNode node in htmlDoc.DocumentNode.SelectNodes("//p/a"))
@@ -34,21 +28,17 @@ public class LinkBuilder
             var hrefValue = node.Attributes["href"]?.Value;
             downloadlink = "https://www.curseforge.com" + hrefValue;
         }
-
-        Console.WriteLine("downloading");
     }
-
-    public static string workingdirectory = string.Empty;
 
     public void Downloader()
     {
-        workingdirectory = $"{workingdirectory}/download/DBM-Core-8.1.20.zip";
+        workingdirectory = $"{workingdirectory}/download/";
         using (WebClient wc = new WebClient())
         {
             wc.DownloadProgressChanged += ProgressBar_ValueChanged_1;
             wc.DownloadFileAsync(new Uri(downloadlink), workingdirectory);
         }
-        Console.WriteLine(workingdirectory);
+        Debug.WriteLine(downloadlink);
     }
 
     private void ProgressBar_ValueChanged_1(object sender, DownloadProgressChangedEventArgs e)

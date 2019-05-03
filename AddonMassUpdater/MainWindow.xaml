@@ -3,8 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:GetLinks"
-        xmlns:WPF="clr-namespace:ConsoleControl.WPF;assembly=ConsoleControl.WPF" x:Class="GetLinks.MainWindow"
+    x:Class="GetLinks.MainWindow"
         mc:Ignorable="d"
         Title="Adddon Mass Updater" Height="488.86" Width="301.014" Icon="AddonUpdater.ico">
     <Window.Resources>
