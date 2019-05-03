@@ -1,6 +1,7 @@
 ﻿using HtmlAgilityPack;
 using System;
 using System.IO;
+
 using System.Net;
 
 public class LinkBuilder
@@ -13,22 +14,17 @@ public class LinkBuilder
         int counter = 0;
         string line;
 
-        // Read the file and display it line by line.
-        using (StreamReader file =
-            new StreamReader($"{workingdirectory}/download/in.txt"))
+        StreamReader file = new StreamReader(workingdirectory + "\\in.txt");
+        while ((line = file.ReadLine()) != null)
         {
-            while ((line = file.ReadLine()) != null)
-            {
-                Console.WriteLine(line);
-                counter++;
-            }
-
-            file.Close();
+            Console.WriteLine(line);
+            counter++;
         }
-        Console.WriteLine("There were {0} lines.", counter);
+
+        file.Close();
     }
 
-    public void Makeuseablelink()
+        public void Makeuseablelink()
     {
         string WorkingLink = @"https://www.curseforge.com/wow/addons/deadly-boss-mods" + "/download";
         HtmlWeb web = new HtmlWeb();
