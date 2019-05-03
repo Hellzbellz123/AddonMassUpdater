@@ -9,7 +9,6 @@ public class LinkBuilder
 
     public void GetLinks()
     {
-
         string workingdirectory = Directory.GetCurrentDirectory();
         int counter = 0;
         string line;
@@ -42,22 +41,18 @@ public class LinkBuilder
 
         Console.WriteLine("downloading");
     }
-}
 
-public class DownloadFiles
-{
+    public static string workingdirectory = string.Empty;
+
     public void Downloader()
     {
+        workingdirectory = $"{workingdirectory}/download/DBM-Core-8.1.20.zip";
         using (WebClient wc = new WebClient())
         {
             wc.DownloadProgressChanged += ProgressBar_ValueChanged_1;
-            wc.DownloadFileAsync(
-                // Param1 = Link of file
-                new Uri("http://www.sayka.com/downloads/front_view.jpg"),
-                // Param2 = Path to save
-                "D:\\Images\\front_view.jpg"
-            );
+            wc.DownloadFileAsync(new Uri(downloadlink), workingdirectory);
         }
+        Console.WriteLine(workingdirectory);
     }
 
     private void ProgressBar_ValueChanged_1(object sender, DownloadProgressChangedEventArgs e)

@@ -23,8 +23,7 @@ namespace GetLinks
             var instance = new LinkBuilder();
             instance.GetLinks();
             instance.Makeuseablelink();
-            //var instance2 = new DownloadFiles();
-            //instance2();
+            instance.Downloader();
         }
 
         private void UpdaterFolder_Click(object sender, RoutedEventArgs e)
@@ -55,7 +54,6 @@ namespace GetLinks
 
         private void ProgressBar_ValueChanged_1(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
-
         }
     }
 }
